@@ -1,0 +1,257 @@
+.food-item {
+  border: 2px solid black;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 10px 0;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+.food-item:hover {
+  background-color: lightcoral;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.alert {
+  flex-direction: row;
+  background-color: #29a746;
+  padding: 12px 12px;
+  font-size: 14px;
+  color: white;
+  border-radius: 5px;
+  text-align: left;
+  border-left: 3px solid green;
+  font-weight: 500;
+  margin-top: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+
+
+.divStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+
+
+  width: 50%;
+  margin: 20px auto;
+
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+
+  background-color: white;
+
+  /* box-shadow: 0 4px 12px rgba(0,0,0,0.15);} */
+}
+
+.input-style {
+  padding: 10px 15px;
+  border: 2px solid #f47575;
+  border-radius: 8px;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  outline: none;
+}
+
+.input-style:focus {
+  border-color: #4f46e5;
+}
+
+.subBtn {
+  background-color: #4f46e5;
+  color: white;
+
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.subBtn:hover {
+  background-color: #4338ca;
+  transform: translateY(-2px);
+}
+
+.disBtn {
+  background-color: rgb(5, 5, 13);
+  display: flex;
+  align-items: center;
+  padding: 3px 5px;
+  margin: 15px auto;
+  border-radius: 5px;
+  font-weight: 500;
+  color: white;
+
+}
+
+.click {
+  color: white;
+  font-size: 14px;
+}
+
+.span{
+  font-size:16px;
+  color: white;
+}
+
+.auth4{
+  align-items: center;
+   display: flex;
+   padding: 5px;
+  margin: 15px auto;
+  width: 15%;
+  background-color:black;
+  color: white;
+  font-size: large;
+  font-weight:bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: bold;
+}
+
+/* .table tr:hover {
+    background-color: #e5e7eb;
+} */
+
+.table .active{
+  background-color:lightcyan;
+}
+
+.divD{
+  align-items: center;
+  padding: 2px 4px;
+  margin: 15px auto;
+  text-align: center;
+  width: 15%;
+  background-color: royalblue;
+  color: white;
+  font-size: large;
+  font-weight:bold;
+  border-radius: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.formD {
+    width: 350px;
+    margin: 30px auto;
+    padding: 25px;
+
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+    text-align: center;
+}
+
+.formD div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    margin-bottom: 15px;
+}
+
+.formD span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #16a34a;
+}
+
+.formD input {
+    width: 180px;
+    padding: 10px;
+
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+
+    outline: none;
+}
+
+.formD input:focus {
+    border-color: #16a34a;
+}
+
+.formD button {
+    width: 100%;
+    padding: 12px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #16a34a;
+    color: white;
+
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.formD button:hover {
+    background-color: #15803d;
+}
+
+.feedback{
+    color: aliceblue;
+    font-size: medium;
+    float: right;
+}
+
+#noList  img{
+  opacity: 0.6;
+}
+
+#noList h6{
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+#food-li-statics {
+  font-size: 14px;
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+}
